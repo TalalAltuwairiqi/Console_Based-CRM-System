@@ -45,12 +45,11 @@ The system was implemented from scratch with file-based data handling. The focus
 
 ## Skills Demonstrated
 
-| Category | Skills |
-| :-- | :-- |
-| **Programming Language** | `C++` |
-| **Programming Concepts** | `Object-Oriented Programming (OOP)` `Clean Code` |
-| **Development** | `Backend Development` `Software Architecture` |
-| **Core Skills** | `File Handling` `Problem Solving` |
+<h3 align="center">
+  C++ &nbsp;|&nbsp; OOP &nbsp;|&nbsp; Clean Code &nbsp;|&nbsp; Backend Development
+  <br />
+  Software Architecture &nbsp;|&nbsp; File Handling &nbsp;|&nbsp; Problem Solving
+</h3>
 
 ---
 
