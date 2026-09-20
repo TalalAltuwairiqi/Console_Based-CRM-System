@@ -41,7 +41,6 @@ The system was implemented from scratch with a modular design and file-based dat
 - **Secure login:** users must authenticate before using the system
 - **Transactions:** handle and track transactions inside the system
 - **Currency exchange:** currency exchange operations
-- **File-based data handling:** data is saved between runs
 - **Modular design:** the code is separated into clear, reusable components
 
 ---
