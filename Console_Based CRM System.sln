@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36310.24 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bank Project OOP - 11", "Bank Project OOP - 11.vcxproj", "{34F9A4CC-4663-4E11-AF02-C0F6B51E95CE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CRM_System", "CRM_System.vcxproj", "{34F9A4CC-4663-4E11-AF02-C0F6B51E95CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
