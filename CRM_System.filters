@@ -33,7 +33,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CRM_System.cpp">
+    <ClCompile Include="Bank Project OOP - 11.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
