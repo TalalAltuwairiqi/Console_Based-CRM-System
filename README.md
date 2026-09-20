@@ -61,7 +61,7 @@ Users authenticate before they can access the system.
 The main menu is the central point from which every module of the system is reached.
 
 <p align="center">
-  <img src="screenshots/main-menu.png" width="700" alt="Main menu" />
+  <img src="C:\Users\96650\Pictures\Screenshots\Prog L7\Programming Certificates\screenshots\main-menu.png" width="700" alt="Main menu" />
 </p>
 
 ### Transactions
