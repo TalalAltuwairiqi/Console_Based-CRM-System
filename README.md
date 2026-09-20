@@ -69,7 +69,7 @@ The main menu is the central point from which every module of the system is reac
 The transactions module.
 
 <p align="center">
-  <img src="screenshots/transactions.png" width="700" alt="Transactions screen" />
+  <img src=""C:\Users\96650\Pictures\Screenshots\Prog L7\Programming Certificates\screenshots\transactions.png"" width="700" alt="Transactions screen" />
 </p>
 
 ### Currency Exchange
