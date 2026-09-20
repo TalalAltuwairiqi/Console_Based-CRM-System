@@ -46,51 +46,56 @@ The system was implemented from scratch with file-based data handling. The focus
 ## Skills Demonstrated
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C++-334155?style=for-the-badge" alt="C++" />
-  <img src="https://img.shields.io/badge/Backend%20Development-334155?style=for-the-badge" alt="Backend Development" />
-  <img src="https://img.shields.io/badge/Software%20Architecture-334155?style=for-the-badge" alt="Software Architecture" />
-  <img src="https://img.shields.io/badge/File%20Handling-334155?style=for-the-badge" alt="File Handling" />
-  <img src="https://img.shields.io/badge/Problem%20Solving-334155?style=for-the-badge" alt="Problem Solving" />
+  <code>&nbsp;C++&nbsp;</code> &nbsp;
+  <code>&nbsp;Backend Development&nbsp;</code> &nbsp;
+  <code>&nbsp;Software Architecture&nbsp;</code> &nbsp;
+  <code>&nbsp;File Handling&nbsp;</code> &nbsp;
+  <code>&nbsp;Problem Solving&nbsp;</code>
 </p>
 
 ---
 
 ## Screenshots
 
-<h3 align="center">Login</h3>
+<h2 align="center">Login</h2>
+
+<h3 align="center">Users authenticate before they can access the system.</h3>
 
 <p align="center">
   <img src="login.png" width="700" alt="Login screen" />
 </p>
-<p align="center"><em>Users authenticate before they can access the system.</em></p>
 
-<h3 align="center">Main Menu</h3>
+<h2 align="center">Main Menu</h2>
+
+<h3 align="center">The central point from which every module of the system is reached.</h3>
 
 <p align="center">
   <img src="main-menu.png" width="700" alt="Main menu" />
 </p>
-<p align="center"><em>The central point from which every module of the system is reached.</em></p>
 
-<h3 align="center">Transactions</h3>
+<h2 align="center">Transactions</h2>
+
+<h3 align="center">The transactions module.</h3>
 
 <p align="center">
   <img src="transactions.png" width="700" alt="Transactions screen" />
 </p>
-<p align="center"><em>The transactions module.</em></p>
 
-<h3 align="center">Currency Exchange</h3>
+<h2 align="center">Currency Exchange</h2>
+
+<h3 align="center">The currency exchange module.</h3>
 
 <p align="center">
   <img src="CurrancyExchange.png" width="700" alt="Currency exchange screen" />
 </p>
-<p align="center"><em>The currency exchange module.</em></p>
 
-<h3 align="center">User Management</h3>
+<h2 align="center">User Management</h2>
+
+<h3 align="center">Management of the system's users and their access.</h3>
 
 <p align="center">
   <img src="Users.png" width="700" alt="User management screen" />
 </p>
-<p align="center"><em>Management of the system's users and their access.</em></p>
 
 ---
 
