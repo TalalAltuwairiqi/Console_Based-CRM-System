@@ -53,7 +53,7 @@ The system was implemented from scratch with a modular design and file-based dat
 Users authenticate before they can access the system.
 
 <p align="center">
-  <img src="screenshots/login.png" width="700" alt="Login screen" />
+  <img src="login.png" width="700" alt="Login screen" />
 </p>
 
 ### Main Menu
@@ -61,7 +61,7 @@ Users authenticate before they can access the system.
 The main menu is the central point from which every module of the system is reached.
 
 <p align="center">
-  <img src="C:\Users\96650\Pictures\Screenshots\Prog L7\Programming Certificates\screenshots\main-menu.png" width="700" alt="Main menu" />
+  <img src="main-menu.png" width="700" alt="Main menu" />
 </p>
 
 ### Transactions
@@ -69,7 +69,7 @@ The main menu is the central point from which every module of the system is reac
 The transactions module.
 
 <p align="center">
-  <img src="C:\Users\96650\Pictures\Screenshots\Prog L7\Programming Certificates\screenshots\transactions.png" width="700" alt="Transactions screen" />
+  <img src="transactions.png" width="700" alt="Transactions screen" />
 </p>
 
 ### Currency Exchange
@@ -77,7 +77,7 @@ The transactions module.
 The currency exchange module.
 
 <p align="center">
-  <img src="screenshots/CurrancyExchange.png" width="700" alt="Currency exchange screen" />
+  <img src="CurrancyExchange.png" width="700" alt="Currency exchange screen" />
 </p>
 
 ### User Management
@@ -85,7 +85,7 @@ The currency exchange module.
 Management of the system's users and their access.
 
 <p align="center">
-  <img src="screenshots/Users.png" width="700" alt="User management screen" />
+  <img src="Users.png" width="700" alt="User management screen" />
 </p>
 
 ---
