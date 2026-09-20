@@ -1,27 +1,23 @@
 <h1 align="center">Console-Based CRM System</h1>
 
 <p align="center">
-  <em>A backend-focused Customer Relationship Management system built from scratch in C++.</em>
+  <strong>A backend-focused Customer Relationship Management system built from scratch in C++</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/IDE-Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" alt="Visual Studio" />
-  <img src="https://img.shields.io/badge/Type-Console%20Application-334155?style=for-the-badge" alt="Console Application" />
-  <img src="https://img.shields.io/badge/Architecture-Modular-334155?style=for-the-badge" alt="Modular Architecture" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" alt="Visual Studio" />
+  <img src="https://img.shields.io/badge/Console%20Application-334155?style=for-the-badge" alt="Console Application" />
+  <img src="https://img.shields.io/badge/Modular%20Design-334155?style=for-the-badge" alt="Modular Design" />
 </p>
 
----
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Screenshots](#screenshots)
-- [Technologies Used](#technologies-used)
-- [How to Run](#how-to-run)
-- [Skills Demonstrated](#skills-demonstrated)
-- [Author](#author)
+<p align="center">
+  <a href="#overview">Overview</a> &nbsp;|&nbsp;
+  <a href="#key-features">Key Features</a> &nbsp;|&nbsp;
+  <a href="#skills-demonstrated">Skills</a> &nbsp;|&nbsp;
+  <a href="#screenshots">Screenshots</a> &nbsp;|&nbsp;
+  <a href="#how-to-run">How to Run</a>
+</p>
 
 ---
 
@@ -35,67 +31,71 @@ The system was implemented from scratch with a modular design and file-based dat
 
 ## Key Features
 
-- **Customer management:** store and manage customer data
-- **User management:** create and manage the system's users
-- **Role-based access control:** permissions are enforced according to the user's role
-- **Secure login:** users must authenticate before using the system
-- **Transactions:** handle and track transactions inside the system
-- **Currency exchange:** currency exchange operations
-- **Modular design:** the code is separated into clear, reusable components
+| Feature | Description |
+| :-- | :-- |
+| **Customer Management** | Store and manage customer data |
+| **User Management** | Create and manage the system's users |
+| **Role-Based Access Control** | Permissions are enforced according to each user's role |
+| **Secure Login** | Users must authenticate before using the system |
+| **Transactions** | Handle and track transactions inside the system |
+| **Currency Exchange** | Currency exchange operations |
+| **File-Based Data Handling** | Data is saved between runs |
+| **Modular Design** | Code is separated into clear, reusable components |
+
+---
+
+## Skills Demonstrated
+
+<p>
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Backend%20Development-0A66C2?style=flat-square" alt="Backend Development" />
+  <img src="https://img.shields.io/badge/Software%20Architecture-0A66C2?style=flat-square" alt="Software Architecture" />
+  <img src="https://img.shields.io/badge/Modular%20Design-0A66C2?style=flat-square" alt="Modular Design" />
+  <img src="https://img.shields.io/badge/File%20Handling-0A66C2?style=flat-square" alt="File Handling" />
+  <img src="https://img.shields.io/badge/Problem%20Solving-0A66C2?style=flat-square" alt="Problem Solving" />
+</p>
 
 ---
 
 ## Screenshots
 
-### Login
-
-Users authenticate before they can access the system.
-
+<h3 align="center">Login</h3>
+<p align="center"><em>Users authenticate before they can access the system.</em></p>
 <p align="center">
   <img src="login.png" width="700" alt="Login screen" />
 </p>
 
-### Main Menu
+<br />
 
-The main menu is the central point from which every module of the system is reached.
-
+<h3 align="center">Main Menu</h3>
+<p align="center"><em>The central point from which every module of the system is reached.</em></p>
 <p align="center">
   <img src="main-menu.png" width="700" alt="Main menu" />
 </p>
 
-### Transactions
+<br />
 
-The transactions module.
-
+<h3 align="center">Transactions</h3>
+<p align="center"><em>The transactions module.</em></p>
 <p align="center">
   <img src="transactions.png" width="700" alt="Transactions screen" />
 </p>
 
-### Currency Exchange
+<br />
 
-The currency exchange module.
-
+<h3 align="center">Currency Exchange</h3>
+<p align="center"><em>The currency exchange module.</em></p>
 <p align="center">
   <img src="CurrancyExchange.png" width="700" alt="Currency exchange screen" />
 </p>
 
-### User Management
+<br />
 
-Management of the system's users and their access.
-
+<h3 align="center">User Management</h3>
+<p align="center"><em>Management of the system's users and their access.</em></p>
 <p align="center">
   <img src="Users.png" width="700" alt="User management screen" />
 </p>
-
----
-
-## Technologies Used
-
-| Technology | Purpose |
-| :-- | :-- |
-| C++ | Core language of the project |
-| Visual Studio | Development environment |
-| File handling | Persistent data storage |
 
 ---
 
@@ -108,15 +108,15 @@ Management of the system's users and their access.
 
 ---
 
-## Skills Demonstrated
+## Developed By
 
-`C++` `Backend Development` `Software Architecture` `Modular Design` `File Handling` `Problem Solving`
+<p>
+  <strong>Talal Altuwairiqi</strong><br />
+  Senior Computer Science Student | Back-End Development
+</p>
 
----
-
-## Author
-
-**Talal Altuwairiqi**
-Senior Computer Science Student | Back-End Development
-
-[LinkedIn](https://www.linkedin.com/in/talal-altuwairiqi/) | [X](https://x.com/DEV_Talal) | [GitHub Profile](https://github.com/TalalAltuwairiqi)
+<p>
+  <a href="https://www.linkedin.com/in/talal-altuwairiqi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://x.com/DEV_Talal"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://github.com/TalalAltuwairiqi"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
