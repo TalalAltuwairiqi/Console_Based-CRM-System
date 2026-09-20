@@ -1,63 +1,92 @@
 #pragma once
-
+#include <iostream>
 #include "clsScreen.h"
+#include "clsPerson.h"
 #include "clsBankClient.h"
 #include "clsInputValidate.h"
 
-class clsTransferScreen : protected clsScreen
+class clsTransferScreen :protected clsScreen
 {
-private:
 
-	static string _ReadAccountNumber(string St)
-	{
-		string AccNFrom = clsInputValidate::ReadStringWithMessage(St);
-		while (!clsBankClient::IsClientExist(AccNFrom))
-		{
-			cout << "Account Number Dosen't Exist , enter another one  : " << endl;
-			AccNFrom = clsInputValidate::ReadString();
-		}
-	
-		return AccNFrom;
-	}
-	
-	static int _ReadBalance(clsBankClient Client)
-	{
-		int Balance = clsInputValidate::ReadIntNumber();
-		while(Balance > Client.AccountBalance)
-		{
-			cout << "Balance not in range : ";
-			Balance = clsInputValidate::ReadIntNumber();
-		}
-		return Balance;
-	}
+private:
+    static void _PrintClient(clsBankClient Client)
+    {
+        cout << "\nClient Card:";
+        cout << "\n___________________\n";
+        cout << "\nFull Name   : " << Client.FullName();
+        cout << "\nAcc. Number : " << Client.AccountNumber();
+        cout << "\nBalance     : " << Client.AccountBalance;
+        cout << "\n___________________\n";
+
+    }
+
+    static string _ReadAccountNumber()
+    {
+        string AccountNumber;
+        cout << "\nPlease Enter Account Number to Transfer From: ";
+        AccountNumber = clsInputValidate::ReadString();
+        while (!clsBankClient::IsClientExist(AccountNumber))
+        {
+            cout << "\nAccount number is not found, choose another one: ";
+            AccountNumber = clsInputValidate::ReadString();
+        }
+        return AccountNumber;
+    }
+
+    static float ReadAmount(clsBankClient SourceClient)
+    {
+        float Amount;
+
+        cout << "\nEnter Transfer Amount? ";
+
+        Amount = clsInputValidate::ReadFloatNumber();
+
+        while (Amount > SourceClient.AccountBalance)
+        {
+            cout << "\nAmount Exceeds the available Balance, Enter another Amount ? ";
+            Amount = clsInputValidate::ReadDblNumber();
+        }
+        return Amount;
+    }
 
 public:
 
-	static void ShowTransferScreen()
-	{
-		
-		_DrawScreenHeader("Transfer Screen");
+    static void ShowTransferScreen()
+    {
 
-		
-		string AccNFrom = _ReadAccountNumber("Enter Account Number to Transfer from : ");
-		clsBankClient Client1 = clsBankClient::Find(AccNFrom);
-		clsBankClient::PrintCardTransfer(Client1);
+        _DrawScreenHeader("\tTransfer Screen");
 
-		string AccNTo = _ReadAccountNumber("Enter Account Number to transfer to : ");
-		clsBankClient Client2 = clsBankClient::Find(AccNTo);
-		clsBankClient::PrintCardTransfer(Client2);
+        clsBankClient SourceClient = clsBankClient::Find(_ReadAccountNumber());
 
+        _PrintClient(SourceClient);
 
-		int Balance = _ReadBalance(Client1);
+        clsBankClient DestinationClient = clsBankClient::Find(_ReadAccountNumber());
 
-		Client1.Withdraw(Balance);
-		Client2.Deposit(Balance);
-		
+        _PrintClient(DestinationClient);
+
+        float Amount = ReadAmount(SourceClient);
 
 
-	}
+        cout << "\nAre you sure you want to perform this operation? y/n? ";
+        char Answer = 'n';
+        cin >> Answer;
+        if (Answer == 'Y' || Answer == 'y')
+        {
+            if (SourceClient.Transfer(Amount, DestinationClient, CurrentUser.UserName))
+            {
+                cout << "\nTransfer done successfully\n";
+            }
+            else
+            {
+                cout << "\nTransfer Faild \n";
+            }
+        }
 
-		
+        _PrintClient(SourceClient);
+        _PrintClient(DestinationClient);
+
+
+    }
 
 };
 
