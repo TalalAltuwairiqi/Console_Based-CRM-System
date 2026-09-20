@@ -46,56 +46,51 @@ The system was implemented from scratch with file-based data handling. The focus
 ## Skills Demonstrated
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Backend%20Development-0A66C2?style=for-the-badge" alt="Backend Development" />
-  <img src="https://img.shields.io/badge/Software%20Architecture-512BD4?style=for-the-badge" alt="Software Architecture" />
-  <img src="https://img.shields.io/badge/File%20Handling-2EA043?style=for-the-badge" alt="File Handling" />
-  <img src="https://img.shields.io/badge/Problem%20Solving-CC2927?style=for-the-badge" alt="Problem Solving" />
+  <img src="https://img.shields.io/badge/C++-334155?style=for-the-badge" alt="C++" />
+  <img src="https://img.shields.io/badge/Backend%20Development-334155?style=for-the-badge" alt="Backend Development" />
+  <img src="https://img.shields.io/badge/Software%20Architecture-334155?style=for-the-badge" alt="Software Architecture" />
+  <img src="https://img.shields.io/badge/File%20Handling-334155?style=for-the-badge" alt="File Handling" />
+  <img src="https://img.shields.io/badge/Problem%20Solving-334155?style=for-the-badge" alt="Problem Solving" />
 </p>
 
 ---
 
 ## Screenshots
 
-### Login
-
-Users authenticate before they can access the system.
+<h3 align="center">Login</h3>
 
 <p align="center">
   <img src="login.png" width="700" alt="Login screen" />
 </p>
+<p align="center"><em>Users authenticate before they can access the system.</em></p>
 
-### Main Menu
-
-The central point from which every module of the system is reached.
+<h3 align="center">Main Menu</h3>
 
 <p align="center">
   <img src="main-menu.png" width="700" alt="Main menu" />
 </p>
+<p align="center"><em>The central point from which every module of the system is reached.</em></p>
 
-### Transactions
-
-The transactions module.
+<h3 align="center">Transactions</h3>
 
 <p align="center">
   <img src="transactions.png" width="700" alt="Transactions screen" />
 </p>
+<p align="center"><em>The transactions module.</em></p>
 
-### Currency Exchange
-
-The currency exchange module.
+<h3 align="center">Currency Exchange</h3>
 
 <p align="center">
   <img src="CurrancyExchange.png" width="700" alt="Currency exchange screen" />
 </p>
+<p align="center"><em>The currency exchange module.</em></p>
 
-### User Management
-
-Management of the system's users and their access.
+<h3 align="center">User Management</h3>
 
 <p align="center">
   <img src="Users.png" width="700" alt="User management screen" />
 </p>
+<p align="center"><em>Management of the system's users and their access.</em></p>
 
 ---
 
@@ -110,10 +105,10 @@ Management of the system's users and their access.
 
 ## Developed By
 
-<h3 align="center">Talal Altuwairiqi</h3>
+<h1 align="center">Talal Altuwairiqi</h1>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/talal-altuwairiqi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://x.com/DEV_Talal"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X" /></a>
-  <a href="https://github.com/TalalAltuwairiqi"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/talal-altuwairiqi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="40" /></a>
+  <a href="https://x.com/DEV_Talal"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" height="40" /></a>
+  <a href="https://github.com/TalalAltuwairiqi"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="40" /></a>
 </p>
